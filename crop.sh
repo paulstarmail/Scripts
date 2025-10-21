@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# sudo apt install imagemagick
+# Run the above command once.
 # DPI and PPI are the same.
 # Put all the image files to be cropped inside "input" folder.
 # Measurements are taken from left top corner of the input image.
@@ -46,4 +48,3 @@ for img_file in "$input_folder"/*.{jpg,jpeg,png,tiff,bmp}; do
 done
 
 echo "Cropping completed for all images in '$input_folder'. Output saved in '$output_folder'."
-
