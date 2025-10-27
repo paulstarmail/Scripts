@@ -1,3 +1,5 @@
+# Install "wget"
+
 import subprocess
 import sys
 import time
@@ -23,3 +25,4 @@ if __name__ == "__main__":
     
     url = sys.argv[1]
     download_with_retry(url)
+
